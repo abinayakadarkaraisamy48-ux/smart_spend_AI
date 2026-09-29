@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
-from data_utils import EXPECTED_COLUMNS, load_dataset, validate_dataset, preprocess_data, create_features
+from data_utils import (EXPECTED_COLUMNS, load_dataset, validate_dataset, preprocess_data, create_features)
 from ml_model import train_ml_model
-from insights import generate_insights, generate_recommendations, extract_sms_transaction
+from insights import( generate_insights, generate_recommendations, extract_sms_transaction)
 
 st.set_page_config(page_title="SmartSpend AI", page_icon="💰", layout="wide", initial_sidebar_state="expanded")
 
