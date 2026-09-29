@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 
-DATA_PATH = Path(__file__).resolve().parent / "data" / "SmartSpendAI_cleaned_dataset.csv"
+DATA_PATH = Path(__file__).resolve().parent"SmartSpendAI_cleaned_dataset.csv"
 
 EXPECTED_COLUMNS = [
     "transaction_id", "payer_name", "payee_name", "date", "time",
